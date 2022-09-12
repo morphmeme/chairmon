@@ -2,12 +2,12 @@ export const generalConfig: GeneralConfigType = {
 
     __templateVersion: '1.1.0',
 
-	name: 'tscord',
+	name: 'chairmon',
 	description: '',
 	defaultLocale: 'en',
 	simpleCommandsPrefix: '!',
 	ownerId: process.env['BOT_OWNER_ID'] || '',
-	timezone: 'Europe/Paris',
+	timezone: 'America/New_York',
 
 	links: {
 		invite: 'https://www.change_invite_link_here.com',
@@ -15,7 +15,7 @@ export const generalConfig: GeneralConfigType = {
 		gitRemoteRepo: 'https://github.com/barthofu/tscord',
 	},
 	
-	automaticUploadImagesToImgur: true,
+	automaticUploadImagesToImgur: false,
 
 	// you don't have to put the owner id here, it is added automatically
 	devs: [],
@@ -27,13 +27,9 @@ export const generalConfig: GeneralConfigType = {
 
     activities: [
 		{
-			text: 'discord.js v14',
+			text: 'chairmon',
 			type: 'PLAYING'
 		},
-		{
-			text: 'some knowledge',
-			type: 'STREAMING'
-		}
 	]
 
 }
